@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+i {
+    margin-right: 10px;
+    color: #007bff; /* Bootstrap primary color */
+}
