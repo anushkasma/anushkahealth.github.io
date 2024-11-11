@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CareWave</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1; 
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo1.jpg" alt="CareWave Logo" height="70">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav-links navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="packages.html">Packages</a></li>
+                                <li><a class="dropdown-item" href="communityforum.html">Community Forum</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourteam.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="avatar">
+                    <img src="images/user-avatar.png" alt="Avatar" width="50px" height="50px">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Contact Us</h1>
+                <div class="mb-3">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Bagbazar, Kathmandu 44600 Nepal</span>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-phone"></i>
+                    <span>+977 9841457755</span>
+                </div>
+                <div class="mb-3">
+                    <i class="fas fa-envelope"></i>
+                    <span>name@gmail.com</span>
+                </div>
+                <div class="mt-4">
+                    <h5>Our Location</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2463082558997!2d85.3244345150245!3d27.6940650828467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1916a4c317cb%3A0x94c0c8e3b1b8c7d2!2sBagbazar%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1637891717741!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex">
+                <div class="vertical-divider"></div>
+                <form class="w-100">
+                    <div class="mb-3">
+                        <input type="text" class="form-control border-bottom-only" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control border-bottom-only" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control border-bottom-only" id="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control full-border" id="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <img src="images/logo1.jpg" alt="Logo" width="100" />
+            </div>
+    
+            <div class="footer-section">
+                <strong>Product</strong>
+                <ul>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <strong>Resources</strong>
+                <ul>
+                    <li>Blog</li>
+                    <li>User Guides</li>
+                    <li>Webinars</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <strong>Company</strong>
+                <ul>
+                    <li>About</li>
+                    <li>Join Us</li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <strong>Subscribe to our newsletter</strong>
+                <p>For product announcements and exclusive insights</p>
+                <div class="newsletter-form">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        <input type="email" class="form-control" placeholder="Input your email" />
+                    </div>
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="footer-dropdown">
+                <select>
+                    <option selected>English</option>
+                    <option>Spanish</option>
+                    <option>French</option>
+                </select>
+            </div>
+            <p>&copy; 2024 Brand Inc. | Privacy | Terms | Sitemap</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
